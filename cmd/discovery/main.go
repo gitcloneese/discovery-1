@@ -13,6 +13,7 @@ import (
 	"github.com/peterlearn/discovery/http"
 )
 
+// -conf cmd/discovery
 func main() {
 	flag.Parse()
 	if err := conf.Init(); err != nil {
